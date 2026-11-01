@@ -60,3 +60,25 @@
 8. **Why are calculations stored in variables before being displayed?**
 
    Storing calculations in variables makes the program easier to read, understand, test, and correct.
+
+## How to Compile and Run
+
+### Compound Interest
+
+Compile:
+
+g++ -std=c++17 -Wall -Wextra compound_interest.cpp -o compound_interest
+
+Run:
+
+./compound_interest
+
+### Monthly Loan Payment
+
+Compile:
+
+g++ -std=c++17 -Wall -Wextra loan_payment.cpp -o loan_payment
+
+Run:
+
+./loan_payment
